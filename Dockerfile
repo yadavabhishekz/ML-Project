@@ -1,4 +1,4 @@
-FROM python:3.13-apline
+FROM python:3.13-alpine
 
 # Install system packages required to build pyarrow
 RUN apt-get update && apt-get install -y \
